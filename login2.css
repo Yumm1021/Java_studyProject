@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family :"NotoSerifKR-Regular";
+    src:url("Noto_Serif_KR/NotoSerifKR-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight:normal;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin : 0;
+}
+
+#contects {
+    position: relative;
+    max-width: 1500px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.titleArea h2 {
+    font-family: NotoSerifKR-Regular;
+    margin : 0 0 5px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #626262;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding-top : 5%;
+}
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end : 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    display : block;
+    margin-block-start: 1em;
+    margin-block-end : 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: NotoSerifKR-Regular;
+}
+
+
+.titleArea {
+    text-align: center;
+}
+
+.loginwrap {
+    position: relative;
+    width: 520px;
+    margin: 0 auto 100px;
+    padding: 0;
+    border: 1px solid #353535;
+}
+
+.xans-member-login{
+    margin: 0 auto;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.security {
+    text-align: left;
+    color: #353535;
+    font-size: small;
+}
+
+.xans-member-login .login li a{
+    font-size: 12px;
+    line-height: 25px;
+    color: #2e2e2e;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+.xans-member-login .login li:after {
+    position: relative;
+    top: 2px;
+    right: -10px;
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    border-right: 1px solid #d9d9d9;
+}
+
+.txtWarn {
+    color: #c19261;
+}
+
+b {
+    font-weight: bold;
+}
+
+.submit_btn{
+    background: #353535;
+    border-color: #353535;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.xans-member-login .login.id, .xans-member-login .login.password {
+    overflow: hidden;
+    display: block;
+    margin: 0 0 8px;
+    border: 1px solid #b9b9b9;
+    color: #8f8f91;
+}
+
+.xans-member-login .login input[type=text], .xans-member-login .login input[type=password] {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 2px 2px 2px 7px;
+    border: 0 ;
+    color: #353535;
+    font-size: 13px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+    height: 22px;
+    line-height: 22px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
+input {
+    vertical-align: middle;
+    outline: none;
+}
+
+input[type=checkbox] + label {
+    margin: 0 4px 0 2px;
+}
+
+label {
+    cursor : default;
+}
